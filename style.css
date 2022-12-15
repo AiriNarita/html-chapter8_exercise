@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item-list{
+  box-sizing: border-box;
+  padding: 50px 0 ;
+}
+
+.item{
+  flex-direction: column;
+  padding:20px 20px;
+}
+
+.item:nth-child(odd) {
+  background-color: #E6E6E6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
