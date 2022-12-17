@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+.main{
+  margin: 50px auto ;
+  width: 960px;
+}
+
 .item-list{
+  width: 960px ;
   box-sizing: border-box;
-  padding: 50px 0 ;
+  padding: 0 0 50px 0;
 }
 
 .item{
@@ -22,4 +28,23 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+.box-list{
+  width : 960px ;
+  display: flex ;
+  flex-wrap: wrap ;
+  gap:20px;
+  justify-content: center;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box:nth-child(4n+1) {
+  background-color: orange;
+}
+
 
